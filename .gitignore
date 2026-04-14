@@ -1,0 +1,40 @@
+# --- Arduino IDE ---
+# Ignore build folders and compiled binaries
+build/
+bin/
+*.hex
+*.elf
+*.zip
+*.gen.cpp
+
+# --- SolidWorks & CAD ---
+# SolidWorks creates temporary "owner" files when a file is open (e.g., ~$Part1.SLDPRT)
+~$*
+*.~*
+*.bak
+*.err
+*.log
+*.swp
+
+# --- VS Code ---
+# Ignore local workspace settings and history
+.vscode/
+.history/
+*.code-workspace
+
+# --- Operating System Files ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Audio/Media Temp ---
+# Ignore temporary edit files if you used Audacity or similar
+*.aup
+*.bak
