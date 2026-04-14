@@ -9,7 +9,7 @@
 ## 📂 Repository Structure
 
 *   **/audio**: The sound library (WAV/MP3) and the SD card configuration guide.
-*   **/docs**: Comprehensive [User Guide](./docs/User_Guide.md), [Developer Guide](./docs/Developer_Guide.md), and [Bill of Materials](./docs/BOM.md).
+*   **/docs**: Comprehensive [User Guide](./docs/User_Guide.md) and [Developer Guide](./docs/Developer_Guide.md).
 *   **/firmware**: 
     *   `duet/`: The main production software.
     *   `calibration/`: Interactive tool for hard-coding sensor values.
